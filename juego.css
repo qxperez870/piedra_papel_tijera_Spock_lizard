@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Lato:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(250, 249, 245, 0.856);
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    
+}
+
+body{
+    background-color: rgb(141, 78, 123);
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.choice{
+    margin: 0px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 4rem;
+    border-radius: 50%;
+    transition: 100ms;
+    
+}
+
+.choice:hover{
+    transform: scale(1.2);
+}
+
+.score-board{
+    margin-top: 75px;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.result-selection{
+    opacity: .5;
+}
+
+.result-selection.winner{
+    opacity: 1;
+    font-size: 2.5rem;
+}
+
+.mensaje{
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 34, 16);
+}
+
+
+.name_player{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description{
+    margin-top: 250px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
