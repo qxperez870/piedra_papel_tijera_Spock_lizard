@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIEDRA, PAPEL, TIJERA, SPOCK, LAGARTO</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+
+<body>
+    <header>
+        <h1>Piedra - Papel - Tijera - Spock - Lagarto</h1>
+    </header>
+    
+    <div class="choices">
+        <button class="choice" id = "r">✊</button>
+        <button class="choice" id = "p">✋</button>
+        <button class="choice" id = "l">🦎</button>
+        <button class="choice" id = "s">✌️</button>
+        <button class="choice" id = "k">🖖</button> 
+    </div>
+
+    <div class = "score-board">
+        <div class="name_player">Tú
+            <span class= "badge" id= "user-score" data-your-score>0</span>
+        </div>
+        <div class="name_player" data-final-column>Computador
+            <span class= "badge" id= "computer-score" data-computer-score>0</span>
+        </div>
+        
+        <div class="result-selection winner" data-other-score></div>
+        <div class="result-selection winner" data-pepe-score></div>
+    </div>
+
+    <div class = "mensaje">
+        <h2 data-msj-win>Elije una opción</h2>
+    </div>
+    <div class = "description">
+    <p>La piedra aplasta al Lagarto <br>
+        La piedra aplasta las tijeras <br>
+        El papel cubre la roca<br>
+        El papel refuta a Spock<br>
+        El lagarto se come el papel<br>
+        El lagarto envenena a Spock<br>
+        Las tijeras cortan el papel <br>
+        Las tijeras decapitan al Lagarto<br>
+        Spock destroza las tijeras<br>
+        Spock vaporiza la roca.
+
+
+    </p></div>
+    <script src="juego.js" charset="utf-8"></script>
+    
+    
+</body>
+</html>
